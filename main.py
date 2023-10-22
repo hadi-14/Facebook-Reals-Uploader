@@ -12,8 +12,8 @@ driver = uc.Chrome()
 driver.get("https://business.facebook.com/latest/reels_composer/?asset_id=101039866279077")
 
 # %%
-email = '100090995858736'
-password = '6789012'
+email = 'your_email'
+password = 'your_password'
 
 # %%
 driver.find_element(By.XPATH, "//input[@type='text']").send_keys(email)
